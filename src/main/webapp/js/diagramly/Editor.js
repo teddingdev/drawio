@@ -57,8 +57,9 @@
 	Editor.thinDataImage = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDgiIHdpZHRoPSI0OCI+PHBhdGggZD0iTTI4Ljg1IDM5LjF2LTIuMjVIMzRxMS4yIDAgMi4wMjUtLjgyNVQzNi44NSAzNHYtNC45cTAtMS43NSAxLjA3NS0zLjEyNXQyLjcyNS0xLjgyNXYtLjNxLTEuNjUtLjQ1LTIuNzI1LTEuODI1UTM2Ljg1IDIwLjY1IDM2Ljg1IDE4LjlWMTRxMC0xLjItLjgyNS0yLjAyNVQzNCAxMS4xNWgtNS4xNVY4LjlIMzRxMi4xNSAwIDMuNjI1IDEuNVQzOS4xIDE0djQuOXEwIDEuMjUuODUgMi4wNzUuODUuODI1IDIuMS44MjVoLjg1djQuNGgtLjg1cS0xLjI1IDAtMi4xLjgyNS0uODUuODI1LS44NSAyLjA3NVYzNHEwIDIuMS0xLjUgMy42VDM0IDM5LjFaTTE0IDM5LjFxLTIuMTUgMC0zLjYyNS0xLjVUOC45IDM0di00LjlxMC0xLjI1LS44NS0yLjA3NS0uODUtLjgyNS0yLjEtLjgyNUg1LjF2LTQuNGguODVxMS4yNSAwIDIuMS0uODI1Ljg1LS44MjUuODUtMi4wNzVWMTRxMC0yLjEgMS41LTMuNlQxNCA4LjloNS4xNXYyLjI1SDE0cS0xLjIgMC0yLjAyNS44MjVUMTEuMTUgMTR2NC45cTAgMS43NS0xLjA3NSAzLjEyNVQ3LjM1IDIzLjg1di4zcTEuNjUuNDUgMi43MjUgMS44MjVRMTEuMTUgMjcuMzUgMTEuMTUgMjkuMVYzNHEwIDEuMi44MjUgMi4wMjVUMTQgMzYuODVoNS4xNXYyLjI1WiIvPjwvc3ZnPg==';
 	Editor.thinExpandImage = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDgiIHdpZHRoPSI0OCI+PHBhdGggZD0iTTI0IDMwLjEgMTIuNyAxOC43NWwxLjYtMS42IDkuNyA5LjcgOS43LTkuNyAxLjYgMS42NVoiLz48L3N2Zz4=';
 	Editor.thinGridImage = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iNDgiPjxwYXRoIGQ9Ik0yMjMuMjkxLTE1NC41cS0yOS4xMTcgMC00OC45NTQtMTkuODM3VDE1NC41LTIyMy4yOTFxMC0yOS4xMTggMTkuODM3LTQ4LjkxM1ExOTQuMTc0LTI5MiAyMjMuMjkxLTI5MnEyOS4xMTggMCA0OC45MTMgMTkuNzk2UTI5Mi0yNTIuNDA5IDI5Mi0yMjMuMjkxcTAgMjkuMTE3LTE5Ljc5NiA0OC45NTQtMTkuNzk1IDE5LjgzNy00OC45MTMgMTkuODM3Wm0yNTYuOCAwcS0yOS4wNDggMC00OC44ODUtMTkuODM3LTE5LjgzNi0xOS44MzctMTkuODM2LTQ4Ljk1NCAwLTI5LjExOCAxOS43NDUtNDguOTEzUTQ1MC44NjEtMjkyIDQ3OS45MDktMjkydDQ4Ljg4NSAxOS43OTZxMTkuODM2IDE5Ljc5NSAxOS44MzYgNDguOTEzIDAgMjkuMTE3LTE5Ljc0NSA0OC45NTQtMTkuNzQ2IDE5LjgzNy00OC43OTQgMTkuODM3Wm0yNTYuNjE4IDBxLTI5LjExOCAwLTQ4LjkxMy0xOS44MzdRNjY4LTE5NC4xNzQgNjY4LTIyMy4yOTFxMC0yOS4xMTggMTkuNzk2LTQ4LjkxM1E3MDcuNTkxLTI5MiA3MzYuNzA5LTI5MnEyOS4xMTcgMCA0OC45NTQgMTkuNzk2IDE5LjgzNyAxOS43OTUgMTkuODM3IDQ4LjkxMyAwIDI5LjExNy0xOS44MzcgNDguOTU0VDczNi43MDktMTU0LjVaTTIyMy4yOTEtNDExLjM3cS0yOS4xMTcgMC00OC45NTQtMTkuNzQ1LTE5LjgzNy0xOS43NDYtMTkuODM3LTQ4Ljc5NHQxOS44MzctNDguODg1cTE5LjgzNy0xOS44MzYgNDguOTU0LTE5LjgzNiAyOS4xMTggMCA0OC45MTMgMTkuNzQ1UTI5Mi01MDkuMTM5IDI5Mi00ODAuMDkxdC0xOS43OTYgNDguODg1cS0xOS43OTUgMTkuODM2LTQ4LjkxMyAxOS44MzZabTI1Ni44IDBxLTI5LjA0OCAwLTQ4Ljg4NS0xOS43NDUtMTkuODM2LTE5Ljc0Ni0xOS44MzYtNDguNzk0dDE5Ljc0NS00OC44ODVxMTkuNzQ2LTE5LjgzNiA0OC43OTQtMTkuODM2dDQ4Ljg4NSAxOS43NDVxMTkuODM2IDE5Ljc0NiAxOS44MzYgNDguNzk0dC0xOS43NDUgNDguODg1cS0xOS43NDYgMTkuODM2LTQ4Ljc5NCAxOS44MzZabTI1Ni42MTggMHEtMjkuMTE4IDAtNDguOTEzLTE5Ljc0NVE2NjgtNDUwLjg2MSA2NjgtNDc5LjkwOXQxOS43OTYtNDguODg1cTE5Ljc5NS0xOS44MzYgNDguOTEzLTE5LjgzNiAyOS4xMTcgMCA0OC45NTQgMTkuNzQ1IDE5LjgzNyAxOS43NDYgMTkuODM3IDQ4Ljc5NHQtMTkuODM3IDQ4Ljg4NXEtMTkuODM3IDE5LjgzNi00OC45NTQgMTkuODM2Wk0yMjMuMjkxLTY2OHEtMjkuMTE3IDAtNDguOTU0LTE5Ljc5Ni0xOS44MzctMTkuNzk1LTE5LjgzNy00OC45MTMgMC0yOS4xMTcgMTkuODM3LTQ4Ljk1NHQ0OC45NTQtMTkuODM3cTI5LjExOCAwIDQ4LjkxMyAxOS44MzdRMjkyLTc2NS44MjYgMjkyLTczNi43MDlxMCAyOS4xMTgtMTkuNzk2IDQ4LjkxM1EyNTIuNDA5LTY2OCAyMjMuMjkxLTY2OFptMjU2LjggMHEtMjkuMDQ4IDAtNDguODg1LTE5Ljc5Ni0xOS44MzYtMTkuNzk1LTE5LjgzNi00OC45MTMgMC0yOS4xMTcgMTkuNzQ1LTQ4Ljk1NCAxOS43NDYtMTkuODM3IDQ4Ljc5NC0xOS44Mzd0NDguODg1IDE5LjgzN3ExOS44MzYgMTkuODM3IDE5LjgzNiA0OC45NTQgMCAyOS4xMTgtMTkuNzQ1IDQ4LjkxM1E1MDkuMTM5LTY2OCA0ODAuMDkxLTY2OFptMjU2LjYxOCAwcS0yOS4xMTggMC00OC45MTMtMTkuNzk2UTY2OC03MDcuNTkxIDY2OC03MzYuNzA5cTAtMjkuMTE3IDE5Ljc5Ni00OC45NTQgMTkuNzk1LTE5LjgzNyA0OC45MTMtMTkuODM3IDI5LjExNyAwIDQ4Ljk1NCAxOS44Mzd0MTkuODM3IDQ4Ljk1NHEwIDI5LjExOC0xOS44MzcgNDguOTEzUTc2NS44MjYtNjY4IDczNi43MDktNjY4WiIvPjwvc3ZnPg==';
+	Editor.thinOpenImage = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiB3aWR0aD0iMjQiPjxwYXRoIGQ9Ik0yNDAtODBxLTMzIDAtNTYuNS0yMy41VDE2MC0xNjB2LTY0MHEwLTMzIDIzLjUtNTYuNVQyNDAtODgwaDMyMGwyNDAgMjQwdjI0MGgtODB2LTIwMEg1MjB2LTIwMEgyNDB2NjQwaDM2MHY4MEgyNDBabTYzOCAxNUw3NjAtMTgzdjg5aC04MHYtMjI2aDIyNnY4MGgtOTBsMTE4IDExOC01NiA1N1ptLTYzOC05NXYtNjQwIDY0MFoiLz48L3N2Zz4=';
 	Editor.selectImage = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDgiIHdpZHRoPSI0OCI+PHBhdGggZD0iTTkgNDJxLTEuMjUgMC0yLjEyNS0uODc1VDYgMzlWOXEwLTEuMjUuODc1LTIuMTI1VDkgNmgzMHEuNyAwIDEuMjc1LjN0LjkyNS43TDM5IDkuMlY5SDl2MzBoMzBWMjEuODVsMy0zVjM5cTAgMS4yNS0uODc1IDIuMTI1VDM5IDQyWm0xNC4wNS04LjQtMTEuMS0xMS4xIDIuMS0yLjEgOSA5IDE5LjEtMTkuMSAyLjEgMi4xWiIvPjwvc3ZnPg==';
-	
+
 	/**
 	 * 
 	 */
@@ -253,6 +254,53 @@
 	Editor.globalVars = null;
 
 	/**
+	 * Default border for image export (to allow for sketch style).
+	 */
+	Editor.defaultBorder = 5;
+
+	/**
+	 * Specifies the ChatGPT API key. Default is null.
+	 */
+	Editor.gptApiKey = (urlParams['gpt-api-key'] != null) ?
+		decodeURIComponent(urlParams['gpt-api-key']) : null;
+
+	/**
+	 * Specifies the ChatGPT model. Default is 'gpt-3.5-turbo'.
+	 */
+	Editor.gptModel = (urlParams['gpt-model'] != null) ?
+		decodeURIComponent(urlParams['gpt-model']) : 'gpt-3.5-turbo';
+	
+	/**
+	 * Specifies the ChatGPT endpoint URL. Default is
+	 * 'https://api.openai.com/v1/chat/completions'.
+	 */
+	Editor.gptUrl = (urlParams['gpt-url'] != null) ?
+		decodeURIComponent(urlParams['gpt-url']) :
+		'https://api.openai.com/v1/chat/completions';
+	
+	/**
+	 * Specifies if data URIs should be replaced with SVG sub-trees in SVG export.
+	 * Default is true.
+	 */
+	Editor.replaceSvgDataUris = true;
+	
+	/**
+	 * Specifies if foreignObject alternate content should be replaced with an image
+	 * of the HTML text. Default is true.
+	 */
+	Editor.foreignObjectImages = true;
+		
+	/**
+	 * Specifies the scale used to rasterize SVG images. Default is 4.
+	 */
+	Editor.svgRasterScale = 4;
+			
+	/**
+	 * Specifies the scale used to rasterize HTML markup. Default is 4.
+	 */
+	Editor.htmlRasterScale = 4;
+	
+	/**
 	 * Reference to the config object passed to <configure>.
 	 */
 	Editor.config = null;
@@ -263,11 +311,6 @@
 	 * mxSettings.parse, then the settings are reset.
 	 */
 	Editor.configVersion = null;
-
-	/**
-	 * Default border for image export (to allow for sketch style).
-	 */
-	Editor.defaultBorder = 5;
 
 	/**
 	 * Common properties for all edges.
@@ -360,6 +403,10 @@
         {name: 'jettySize', dispName: 'Jetty Size', type: 'int', min: 0, defVal: 'auto', allowAuto: true, isVisible: function(state)
         {
     		return mxUtils.getValue(state.style, mxConstants.STYLE_EDGE, null) == 'orthogonalEdgeStyle';
+        }},
+        {name: 'segment', dispName: 'Segment Size', type: 'int', min: 0, defVal: mxConstants.ENTITY_SEGMENT, isVisible: function(state)
+        {
+    		return mxUtils.getValue(state.style, mxConstants.STYLE_EDGE, null) == 'entityRelationEdgeStyle';
         }},
         {name: 'fillOpacity', dispName: 'Fill Opacity', type: 'int', min: 0, max: 100, defVal: 100},
         {name: 'strokeOpacity', dispName: 'Stroke Opacity', type: 'int', min: 0, max: 100, defVal: 100},
@@ -629,6 +676,7 @@
 		'## x is from -1 to 1 along the edge, y is orthogonal, and dx/dy are offsets in pixels.\n' +
 		'## An optional placeholders with the string value "source" or "target" can be specified\n' +
 		'## to replace placeholders in the additional label with data from the source or target.\n' +
+		'## An optional data object can be specified to define the metadata for the connector.\n' +
 		'## The target column may contain a comma-separated list of values.\n' +
 		'## Multiple connect entries are allowed.\n' +
 		'#\n' +
@@ -651,7 +699,7 @@
 		'#\n' +
 		'# width: auto\n' +
 		'#\n' +
-		'## Node height. Possible value is a number (in px), auto or an @ sign followed by a column\n' +
+		'## Node height. Possible value is a number (in px), auto, width or an @ sign followed by a column\n' +
 		'## name that contains the value for the height. Default is auto.\n' +
 		'#\n' +
 		'# height: auto\n' +
@@ -1517,7 +1565,7 @@
 	/**
 	 * Extracts the XML from the compressed or non-compressed text chunk.
 	 */
-	Editor.parseDiagramNode = function(diagramNode, checked)
+	Editor.parseDiagramNode = function(diagramNode, checked, allowRecurse)
 	{
 		var text = mxUtils.trim(mxUtils.getTextContent(diagramNode));
 		var node = null;
@@ -1537,9 +1585,16 @@
 			
 			if (temp.length > 0)
 			{
+				var tempNode = temp[0];
+
+				if (allowRecurse)
+				{
+					tempNode = Editor.parseDiagramNode(tempNode, checked, false);
+				}
+
 				// Creates new document for unique IDs within mxGraphModel
 				var doc = mxUtils.createXmlDocument();
-				doc.appendChild(doc.importNode(temp[0], true));
+				doc.appendChild(doc.importNode(tempNode, true));
 				node = doc.documentElement;
 			}
 		}
@@ -1821,6 +1876,11 @@
 				Graph.prototype.defaultEdgeLength = config.defaultEdgeLength
 			}
 
+			if (config.selectParentLayer != null)
+			{
+				Graph.selectParentLayer = config.selectParentLayer
+			}
+
 			if (config.autosaveDelay != null)
 			{
 				DrawioFile.prototype.autosaveDelay = config.autosaveDelay
@@ -1919,6 +1979,16 @@
 				var t = document.getElementsByTagName('script')[0];
 			  	t.parentNode.insertBefore(s, t);
 			}
+
+			if (config.expandLibraries != null)
+			{
+				Sidebar.prototype.expandLibraries = config.expandLibraries;
+			}
+			
+			if (config.appendCustomLibraries != null)
+			{
+				Sidebar.prototype.appendCustomLibraries = config.appendCustomLibraries;
+			}
 			
 			// Configures the custom libraries
 			if (config.libraries != null)
@@ -1999,6 +2069,21 @@
 				else
 				{
 					EditorUi.debug('Configuration Error: Float > 1 expected for zoomFactor');
+				}
+			}
+
+			// Overrides default grid size
+			if (config.defaultGridSize != null)
+			{
+				var val = parseInt(config.defaultGridSize);
+				
+				if (!isNaN(val) && val > 0)
+				{
+					mxGraph.prototype.gridSize = val;
+				}
+				else
+				{
+					EditorUi.debug('Configuration Error: Int > 0 expected for defaultGridSize');
 				}
 			}
 
@@ -2132,6 +2217,31 @@
 			{
 				DrawioFile.RESTRICT_EXPORT = config.restrictExport;
 			}
+			
+			if (config.replaceSvgDataUris != null)
+			{
+				Editor.replaceSvgDataUris = config.replaceSvgDataUris;
+			}
+
+			if (config.foreignObjectImages != null)
+			{
+				Editor.foreignObjectImages = config.foreignObjectImages;
+			}
+
+			if (config.gptApiKey != null)
+			{
+				Editor.gptApiKey = config.gptApiKey;
+			}
+
+			if (config.gptModel != null)
+			{
+				Editor.gptModel = config.gptModel;
+			}
+
+			if (config.gptUrl != null)
+			{
+				Editor.gptUrl = config.gptUrl;
+			}
 		}
 	};
 	
@@ -2192,6 +2302,11 @@
      * Prefix for URLs that reference Google fonts.
      */
 	Editor.GOOGLE_FONTS = 'https://fonts.googleapis.com/css?family=';
+     
+    /**
+     * Prefix for URLs that reference Google fonts with CSS2.
+     */
+	Editor.GOOGLE_FONTS_CSS2 = 'https://fonts.googleapis.com/css2?family=';
     
 	/**
 	 * Alphabet for global unique IDs.
@@ -2238,11 +2353,6 @@
 		{description: 'diagramSvgDesc', extension: 'svg', mimeType: 'image/svg'},
 		{description: 'diagramHtmlDesc', extension: 'html', mimeType: 'text/html'}];
 	
-	if (urlParams['save-dialog'] != '1')
-	{
-		Editor.prototype.diagramFileTypes.push({description: 'diagramXmlDesc', extension: 'xml', mimeType: 'text/xml'});
-	}
-
 	/**
 	 * Known file types.
 	 */
@@ -2697,8 +2807,7 @@
 			/app\.diagrams\.net$/.test(window.location.hostname)) &&
 			!this.isCorsEnabledForUrl(url))
 		{
-			var isVisioFilename = /(\.v(dx|sdx?))($|\?)/i.test(url) ||
-				/(\.vs(x|sx?))($|\?)/i.test(url);
+			var isVisioFilename = EditorUi.isVisioFilename(url);
 			var binary = /\.png$/i.test(url) || /\.pdf$/i.test(url);
 			var base64 = binary || isVisioFilename;
 			var nocache = 't=' + new Date().getTime();
@@ -2755,20 +2864,16 @@
 		
 		converter.convert = function(src)
 		{
-			if (src != null)
+			if (src != null && navigator.onLine)
 			{
 				var remote = src.substring(0, 7) == 'http://' || src.substring(0, 8) == 'https://';
 				
-				if (remote && !navigator.onLine)
-				{
-					src = Editor.svgBrokenImage.src;
-				}
-				else if (remote && src.substring(0, converter.baseUrl.length) != converter.baseUrl &&
+				if (remote && src.substring(0, converter.baseUrl.length) != converter.baseUrl &&
 						(!self.crossOriginImages || !self.isCorsEnabledForUrl(src)))
 				{
 					src = PROXY_URL + '?url=' + encodeURIComponent(src);
 				}
-				else if (src.substring(0, 19) != 'chrome-extension://' && !mxClient.IS_CHROMEAPP)
+				else if (src.substring(0, 19) != 'chrome-extension://')
 				{
 					src = convert.apply(this, arguments);
 				}
@@ -2791,7 +2896,7 @@
 	/**
 	 * 
 	 */
-	Editor.prototype.convertImageToDataUri = function(url, callback)
+	Editor.prototype.convertImageToDataUri = function(url, callback, error, convertScale, forceConvert)
 	{
 		try
 		{
@@ -2800,29 +2905,51 @@
 			var timeoutThread = window.setTimeout(mxUtils.bind(this, function()
 			{
 				acceptResponse = false;
-				callback(Editor.svgBrokenImage.src);
+				callback(url);
 			}), this.timeout);
+
+			// Fallback to raster image if SVG cannot be loaded
+			var svgError = mxUtils.bind(this, function()
+			{
+				if (convertScale != null)
+				{
+					this.convertImageToDataUri(url, callback, error, convertScale, true);
+				}
+				else
+				{
+					callback(url);
+				}
+			});
 	
-			if (/(\.svg)$/i.test(url))
+			if (/(\.svg)$/i.test(url) && !forceConvert)
 			{
 				mxUtils.get(url, mxUtils.bind(this, function(req)
 				{
 			    	window.clearTimeout(timeoutThread);
-					
+
 					if (acceptResponse)
 					{
-						callback(Editor.createSvgDataUri(req.getText()));
+						if (req.getStatus() < 200 || req.getStatus() > 299)
+						{
+							svgError();
+						}
+						else
+						{
+							callback(Editor.createSvgDataUri(req.getText()));
+						}
+
+						
 					}
 				}),
-				function()
+				mxUtils.bind(this, function()
 				{
 			    	window.clearTimeout(timeoutThread);
-					
+
 					if (acceptResponse)
 					{
-						callback(Editor.svgBrokenImage.src);
+						svgError();
 					}
-				});
+				}));
 			}
 			else
 			{
@@ -2841,17 +2968,21 @@
 					{
 				        try
 				        {
+							convertScale = (convertScale != null &&
+								forceConvert) ? convertScale : 1;
+
 					        var canvas = document.createElement('canvas');
 					        var ctx = canvas.getContext('2d');
-					        canvas.height = img.height;
-					        canvas.width = img.width;
+							ctx.scale(convertScale, convertScale);
+					        canvas.height = img.height * convertScale;
+					        canvas.width = img.width * convertScale;
 					        ctx.drawImage(img, 0, 0);
-
+							
 				        	callback(canvas.toDataURL());
 				        }
 				        catch (e)
 				        {
-			        		callback(Editor.svgBrokenImage.src);
+			        		callback(url);
 				        }
 					}
 			    };
@@ -2862,7 +2993,14 @@
 					
 					if (acceptResponse)
 					{
-						callback(Editor.svgBrokenImage.src);
+						if (error != null)
+						{
+							error();
+						}
+						else
+						{
+							callback(url);
+						}
 					}
 			    };
 			    
@@ -2871,10 +3009,16 @@
 		}
 		catch (e)
 		{
-			callback(Editor.svgBrokenImage.src);
+			if (error != null)
+			{
+				error();
+			}
+			else
+			{
+				callback(url);
+			}
 		}
 	};
-	
 	
 	/**
 	 * Converts all images in the SVG output to data URIs for immediate rendering
@@ -2887,19 +3031,16 @@
 			converter = this.createImageUrlConverter();
 		}
 		
-		// Barrier for asynchronous image loading
-		var counter = 0;
-		
-		function inc()
+		// Queues image conversion and executes in order
+		var pending = [];
+
+		function next()
 		{
-			counter++;
-		};
-		
-		function dec()
-		{
-			counter--;
-			
-			if (counter == 0)
+			if (pending.length > 0)
+			{
+				pending.shift()();
+			}
+			else
 			{
 				callback(svgRoot);
 			}
@@ -2915,47 +3056,52 @@
 			{
 				(mxUtils.bind(this, function(img)
 				{
-					try
+					pending.push(mxUtils.bind(this, function()
 					{
-						if (img != null)
+						try
 						{
-							var src = converter.convert(img.getAttribute(srcAttr));
-				        	
-							// Data URIs are pass-through
-							if (src != null && src.substring(0, 5) != 'data:')
+							if (img != null)
 							{
-								var tmp = cache[src];
-								
-								if (tmp == null)
+								var src = converter.convert(img.getAttribute(srcAttr));
+
+								// Data URIs are pass-through
+								if (src != null && src.substring(0, 5) != 'data:')
 								{
-									inc();
-									
-									this.convertImageToDataUri(src, function(uri)
+									var tmp = cache[src];
+
+									if (tmp == null)
 									{
-										if (uri != null)
+										this.convertImageToDataUri(src, function(uri)
 										{
-											cache[src] = uri;
-											img.setAttribute(srcAttr, uri);
-										}
-										
-										dec();
-									});
+											if (uri != null)
+											{
+												cache[src] = uri;
+												img.setAttribute(srcAttr, uri);
+											}
+											
+											next();
+										}, null, Editor.svgRasterScale);
+									}
+									else
+									{
+										img.setAttribute(srcAttr, tmp);
+
+										next();
+									}
 								}
-								else
+								else if (src != null)
 								{
-									img.setAttribute(srcAttr, tmp);
+									img.setAttribute(srcAttr, src);
+
+									next();
 								}
-							}
-							else if (src != null)
-							{
-								img.setAttribute(srcAttr, src);
 							}
 						}
-					}
-					catch (e)
-					{
-						// ignore
-					}
+						catch (e)
+						{
+							next();
+						}
+					}));
 				}))(images[i]);
 			}
 		});
@@ -2964,14 +3110,9 @@
 		// LATER: Add support for images in CSS
 		convertImages('image', 'xlink:href');
 		convertImages('img', 'src');
-		
-		// All from cache or no images
-		if (counter == 0)
-		{
-			callback(svgRoot);
-		}
+		next();
 	};
-
+		
 	/**
 	 * Base64 encodes the given string. This method seems to be more
 	 * robust for encoding PNG from binary AJAX responses.
@@ -3399,7 +3540,7 @@
 						{
 							waiting++;
 							
-							this.loadUrl(fontUrl, mxUtils.bind(this, function(css)
+							this.loadUrl(Graph.rewriteGoogleFontUrl(fontUrl), mxUtils.bind(this, function(css)
 		                    {
 								this.cachedGoogleFonts[fontUrl] = css;
 								content.push(css + '\n');
@@ -3407,7 +3548,6 @@
 		                        googleCssDone();
 		                    }), mxUtils.bind(this, function(err)
 		                    {
-		                        // LATER: handle error
 		                        waiting--;
 								content.push('@import url(' + fontUrl + ');\n');
 		                        googleCssDone();
@@ -3494,12 +3634,40 @@
 				defsElt = defs[0];
 			}
 
+			// Moves imports to separate style element
+			var lines = fontCss.split('\n');
+			var imports = [];
+			var other = [];
+
+			for (var i = 0; i < lines.length; i++)
+			{
+				if (lines[i].substring(0, 7) == '@import')
+				{
+					imports.push(lines[i]);
+				}
+				else
+				{
+					other.push(lines[i]);
+				}
+			}
+			
 			var style = (svgDoc.createElementNS != null) ?
 				svgDoc.createElementNS(mxConstants.NS_SVG, 'style') :
 				svgDoc.createElement('style');
 			style.setAttribute('type', 'text/css');
-			mxUtils.setTextContent(style, fontCss);
-			defsElt.appendChild(style);
+
+			if (imports.length > 0)
+			{
+				mxUtils.setTextContent(style, imports.join('\n'));
+				defsElt.appendChild(style);
+			}
+
+			if (other.length > 0)
+			{
+				style = style.cloneNode(false);
+				mxUtils.setTextContent(style, other.join('\n'));
+				defsElt.appendChild(style);
+			}
 		}
 	};
 	
@@ -4820,15 +4988,18 @@
 				clrDiv.style.height = '4px';
 				clrDiv.style.margin = '2px';
 				clrDiv.style.border = '1px solid black';
-				clrDiv.style.background = !pValue || pValue == 'none'? 'url(\'' + Dialog.prototype.noColorImage + '\')' : pValue;
+				clrDiv.style.background = !pValue || pValue == 'none'?
+					'url(\'' + Dialog.prototype.noColorImage + '\')' : pValue;
 
 				btn = mxUtils.button('', mxUtils.bind(that, function(evt)
 				{
 					this.editorUi.pickColor(pValue, function(color)
 					{
-						clrDiv.style.background = color == 'none'? 'url(\'' + Dialog.prototype.noColorImage + '\')' : color;
+						clrDiv.style.background = color == 'none'?
+							'url(\'' + Dialog.prototype.noColorImage + '\')' : color;
 						applyStyleVal(pName, color, prop);
 					});
+					
 					mxEvent.consume(evt);
 				}));
 				
@@ -4845,7 +5016,9 @@
 				if (pValue != null)
 				{
 					var vals = pValue.split(',');
-					secondLevel.push({name: pName, values: vals, type: subType, defVal: defVal, countProperty: countProperty, parentRow: myRow, isDeletable: true, flipBkg: flipBkg});
+					secondLevel.push({name: pName, values: vals, type: subType,
+						defVal: defVal, countProperty: countProperty,
+						parentRow: myRow, isDeletable: true, flipBkg: flipBkg});
 				}
 				
 				btn = mxUtils.button('+', mxUtils.bind(that, function(evt)
@@ -4869,7 +5042,8 @@
 						}
 					}
 					
-					var newProp = {type: subType, parentRow: myRow, index: index, isDeletable: true, defVal: defVal, countProperty: countProperty};
+					var newProp = {type: subType, parentRow: myRow, index: index,
+						isDeletable: true, defVal: defVal, countProperty: countProperty};
 					var arrItem = createPropertyRow(pName, '', newProp, index % 2 == 0, flipBkg);
 					applyStyleVal(pName, defVal, newProp);
 					insertAfter(arrItem, beforeElem);
@@ -5600,18 +5774,14 @@
 	 * Lookup table for mapping from font URL and name to elements in the DOM.
 	 */
 	Graph.customFontElements = {};
-		
-	/**
-	 * Lookup table for recent custom fonts.
-	 */
-	Graph.recentCustomFonts = {};
 
 	/**
 	 * Returns true if the given font URL references a Google font.
 	 */
 	Graph.isGoogleFontUrl = function(url)
 	{
-		return url.substring(0, Editor.GOOGLE_FONTS.length) == Editor.GOOGLE_FONTS;
+		return url.substring(0, Editor.GOOGLE_FONTS.length) == Editor.GOOGLE_FONTS ||
+			url.substring(0, Editor.GOOGLE_FONTS_CSS2.length) == Editor.GOOGLE_FONTS_CSS2;
 	};
 
 	/**
@@ -5620,6 +5790,21 @@
 	Graph.isCssFontUrl = function(url)
 	{
 		return Graph.isGoogleFontUrl(url);
+	};
+
+	/**
+	 * Uses CSS2 for Google fonts to support bold font style eg.
+	 * https://fonts.googleapis.com/css?family=IBM+Plex+Sans is rewritten as
+	 * https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500
+	 */
+	Graph.rewriteGoogleFontUrl = function(url)
+	{
+		if (url != null && url.substring(0, Editor.GOOGLE_FONTS.length) == Editor.GOOGLE_FONTS)
+		{
+			url = Editor.GOOGLE_FONTS_CSS2 + url.substring(Editor.GOOGLE_FONTS.length) + ':wght@400;500';
+		}
+
+		return url;
 	};
 
 	/**
@@ -5636,7 +5821,7 @@
 			elt.setAttribute('rel', 'stylesheet');
 			elt.setAttribute('type', 'text/css');
 			elt.setAttribute('charset', 'UTF-8');
-			elt.setAttribute('href', url);
+			elt.setAttribute('href', Graph.rewriteGoogleFontUrl(url));
 		}
 		else
 		{
@@ -5653,7 +5838,15 @@
 		
 		return elt;
 	};
-	
+		
+	/**
+	 * Adds an entry to the recent custom fonts list.
+	 */
+	Graph.addRecentCustomFont = function(key, entry)
+	{
+		// Hook for registering recent custom fonts in the UI
+	};
+
 	/**
 	 * Adds a font to the document.
 	 */
@@ -5663,7 +5856,7 @@
 		{
 			var key = name.toLowerCase();
 			
-			// Blocks UI font from being overwritten
+			// Blocks UI fonts from being overwritten
 			if (key != 'helvetica' && name != 'arial' && key != 'sans-serif')
 			{
 				var entry = Graph.customFontElements[key];
@@ -5687,7 +5880,6 @@
 
 					entry = {name: name, url: url, elt: Graph.createFontElement(name, realUrl)};
 					Graph.customFontElements[key] = entry;
-					Graph.recentCustomFonts[key] = entry;
 					var head = document.getElementsByTagName('head')[0];
 					
 					if (callback != null)
@@ -5958,7 +6150,7 @@
 	 * Handles custom fonts in labels.
 	 */
 	var mxSvgCanvas2DUpdateTextNodes = mxSvgCanvas2D.prototype.updateTextNodes;
-	mxSvgCanvas2D.prototype.updateTextNodes = function(x, y, w, h, align, valign, wrap, overflow, clip, rotation, g)
+	mxSvgCanvas2D.prototype.updateTextNodes = function(x, y, w, h, align, valign, wrap, overflow, clip, rotation, dir, g)
 	{
 		mxSvgCanvas2DUpdateTextNodes.apply(this, arguments);
 		Graph.processFontAttributes(g);
@@ -6124,6 +6316,7 @@
 							img.setAttribute('src', visible ? Editor.visibleImage : Editor.hiddenImage);
 							img.setAttribute('title', mxResources.get(visible ? 'hideIt' : 'show', [tag]));
 							mxUtils.setOpacity(img, visible ? 75 : 25);
+							img.className = 'geAdaptiveAsset';
 							img.style.verticalAlign = 'middle';
 							img.style.cursor = 'pointer';
 							img.style.width = '16px';
@@ -6161,6 +6354,7 @@
 							img.setAttribute('src', Editor.selectImage);
 							img.setAttribute('title', mxResources.get('select'));
 							mxUtils.setOpacity(img, visible ? 75 : 25);
+							img.className = 'geAdaptiveAsset';
 							img.style.verticalAlign = 'middle';
 							img.style.cursor = 'pointer';
 							img.style.width = '16px';
@@ -6235,6 +6429,7 @@
 									img.setAttribute('src', Editor.trashImage);
 									img.setAttribute('title', mxResources.get('removeIt', [tag]));
 									mxUtils.setOpacity(img, visible ? 75 : 25);
+									img.className = 'geAdaptiveAsset';
 									img.style.verticalAlign = 'middle';
 									img.style.cursor = 'pointer';
 									img.style.width = '16px';
@@ -6398,31 +6593,44 @@
 	{
 		// Adds the font element to the document
 		Graph.addFont(name, url);
-		
-		// Only valid known fonts are allowed as parameters so we set
-		// the real font name and the data-source-face in the element
-		// which is used as the face attribute when editing stops
-		// KNOWN: Undo for the DOM change is not working
-		document.execCommand('fontname', false, name);
 
-		// Finds element with new font name and checks its data-font-src attribute
-		if (url != null)
+		// Marks the element with a random font name so
+		// that it can be found in the code below
+		var temp = Editor.guid();
+		document.execCommand('fontname', false, temp);
+
+		// Finds the new or updated element and changes or
+		// removes is data-font-src attribute as required
+		var fonts = this.cellEditor.textarea.getElementsByTagName('font');
+		var elt = null;
+
+		for (var i = 0; i < fonts.length; i++)
 		{
-			var fonts = this.cellEditor.textarea.getElementsByTagName('font');
-			
-			// Enforces consistent font naming
-			url = Graph.getFontUrl(name, url);
-			
-			for (var i = 0; i < fonts.length; i++)
+			if (fonts[i].getAttribute('face') == temp)
 			{
-				if (fonts[i].getAttribute('face') == name)
-				{
-					if (fonts[i].getAttribute('data-font-src') != url)
-					{
-						fonts[i].setAttribute('data-font-src', url);
-					}
-				}
+				elt = fonts[i];
+				break;
 			}
+		}
+
+		if (elt != null)
+		{
+			fonts[i].setAttribute('face', name);
+
+			if (url != null)
+			{
+				fonts[i].setAttribute('data-font-src', url);
+			}
+			else
+			{
+				fonts[i].removeAttribute('data-font-src');
+			}
+		}
+		else
+		{
+			// Fallback to use the real font name if a new
+			// or updated element can not be found above
+			document.execCommand('fontname', false, name);
 		}
 	};
 	
@@ -6615,7 +6823,7 @@
 				result.setAttribute('class', cssClass);
 			}
 
-			var style = Graph.createSvgDarkModeStyle(result.ownerDocument, theme, cssClass);
+			var style = Graph.createSvgDarkModeStyle(result.ownerDocument, theme, cssClass, background);
 			result.getElementsByTagName('defs')[0].appendChild(style);
 		}
 		
@@ -6638,7 +6846,7 @@
 				
 				if (Graph.isCssFontUrl(fontUrl))
 				{
-					prefix += '@import url(' + fontUrl + ');\n';
+					prefix += '@import url(' + Graph.rewriteGoogleFontUrl(fontUrl) + ');\n';
 				}
 				else
 				{
@@ -6658,6 +6866,14 @@
 			document.body.appendChild(result);
 			Editor.MathJaxRender(result);
 			result.parentNode.removeChild(result);
+
+			// Copies MathJax CSS to output
+			var style = result.ownerDocument.getElementById('MJX-SVG-styles');
+
+			if (style != null)
+			{
+				result.getElementsByTagName('defs')[0].appendChild(style.cloneNode(true));
+			}
 		}
 
 		if (bgImg != null)
@@ -6867,7 +7083,7 @@
 	 * 
 	 * This toggles the visible state of the cells with ID 3 and 4.
 	 */
-	Graph.prototype.handleCustomLink = function(href)
+	Graph.prototype.handleCustomLink = function(href, cell)
 	{
 		if (href.substring(0, 17) == 'data:action/json,')
 		{
@@ -6875,7 +7091,7 @@
 
 			if (link.actions != null)
 			{
-				this.executeCustomActions(link.actions);
+				this.executeCustomActions(link.actions, null, cell);
 			}
 		}
 	};
@@ -6885,7 +7101,7 @@
 	 * When adding new actions that reference cell IDs support for updating
 	 * those cell IDs must be handled in Graph.updateCustomLinkActions
 	 */
-	Graph.prototype.executeCustomActions = function(actions, done)
+	Graph.prototype.executeCustomActions = function(actions, done, cell)
 	{
 		if (!this.executingCustomActions)
 		{
@@ -6940,7 +7156,7 @@
 
 						if (this.isCustomLink(action.open))
 						{
-							if (!this.customLinkClicked(action.open))
+							if (!this.customLinkClicked(action.open, cell))
 							{
 								return;
 							}
@@ -7070,6 +7286,11 @@
 					if (cells.length > 0)
 					{
 						this.scrollCellToVisible(cells[0]);
+					}
+					
+					if (cell != null && action.explore != null)
+					{
+						Graph.exploreFromCell(this, cell, action.explore);
 					}
 
 					if (action.tags != null)
@@ -7937,7 +8158,7 @@
 	mxStencilRegistry.libraries['cisco_safe'] = [SHAPES_PATH + '/mxCiscoSafe.js', STENCIL_PATH + '/cisco_safe/architecture.xml', STENCIL_PATH + '/cisco_safe/business_icons.xml', STENCIL_PATH + '/cisco_safe/capability.xml', STENCIL_PATH + '/cisco_safe/design.xml', STENCIL_PATH + '/cisco_safe/iot_things_icons.xml', STENCIL_PATH + '/cisco_safe/people_places_things_icons.xml', STENCIL_PATH + '/cisco_safe/security_icons.xml', STENCIL_PATH + '/cisco_safe/technology_icons.xml', STENCIL_PATH + '/cisco_safe/threat.xml'];
 	mxStencilRegistry.libraries['dfd'] = [SHAPES_PATH + '/mxDFD.js'];
 	mxStencilRegistry.libraries['er'] = [SHAPES_PATH + '/er/mxER.js'];
-	mxStencilRegistry.libraries['kubernetes'] = [SHAPES_PATH + '/mxKubernetes.js', STENCIL_PATH + '/kubernetes.xml'];
+	mxStencilRegistry.libraries['kubernetes'] = [SHAPES_PATH + '/mxKubernetes.js', STENCIL_PATH + '/kubernetes.xml', STENCIL_PATH + '/kubernetes2.xml'];
 	mxStencilRegistry.libraries['flowchart'] = [SHAPES_PATH + '/mxFlowchart.js', STENCIL_PATH + '/flowchart.xml'];
 	mxStencilRegistry.libraries['ios'] = [SHAPES_PATH + '/mockup/mxMockupiOS.js'];
 	mxStencilRegistry.libraries['rackGeneral'] = [SHAPES_PATH + '/rack/mxRack.js', STENCIL_PATH + '/rack/general.xml'];
@@ -7983,6 +8204,8 @@
 	mxStencilRegistry.libraries['pid2misc'] = [SHAPES_PATH + '/pid2/mxPidMisc.js', STENCIL_PATH + '/pid/misc.xml'];
 	mxStencilRegistry.libraries['pid2valves'] = [SHAPES_PATH + '/pid2/mxPidValves.js'];
 	mxStencilRegistry.libraries['pidFlowSensors'] = [STENCIL_PATH + '/pid/flow_sensors.xml'];
+	mxStencilRegistry.libraries['salesforce'] = [SHAPES_PATH + '/mxSalesforce.js', STENCIL_PATH + '/salesforce.xml'];
+	mxStencilRegistry.libraries['emoji'] = [SHAPES_PATH + '/emoji/mxEmoji.js'];
 
 	// Triggers dynamic loading for markers
 	mxMarker.getPackageForType = function(type)
@@ -8469,7 +8692,8 @@
 						if (editorUi.editor.fontCss != null)
 						{
 							doc.writeln('<style type="text/css">');
-							doc.writeln(editorUi.editor.fontCss);
+							doc.writeln(mxUtils.htmlEntities(editorUi.editor.fontCss,
+								false, false, false));
 							doc.writeln('</style>');
 						}
 						
@@ -8483,7 +8707,7 @@
 							if (Graph.isCssFontUrl(fontUrl))
 							{
 						   		doc.writeln('<link rel="stylesheet" href="' +
-						   			mxUtils.htmlEntities(fontUrl) +
+						   			mxUtils.htmlEntities(Graph.rewriteGoogleFontUrl(fontUrl)) +
 						   			'" charset="UTF-8" type="text/css">');
 							}
 							else
@@ -8782,7 +9006,7 @@
 						pv.wnd.IMMEDIATE_PRINT = true;
 					}
 
-					doc.writeln('<script type="text/javascript" src="' + DRAWIO_BASE_URL + '/js/math-print.js"></script>');
+					doc.writeln('<script type="text/javascript" src="js/math-print.js"></script>');
 				}
 				
 				pv.closeDocument();

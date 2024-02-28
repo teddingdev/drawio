@@ -2,6 +2,7 @@ window.PLUGINS_BASE_PATH = '.';
 window.TEMPLATE_PATH = 'templates';
 window.DRAW_MATH_URL = 'math/es5';
 window.DRAWIO_BASE_URL = '.'; //Prevent access to online website since it is not allowed
+window.DRAWIO_SERVER_URL = '.';
 FeedbackDialog.feedbackUrl = 'https://log.draw.io/email';
 EditorUi.draftSaveDelay = 5000;
 //Disables eval for JS (uses shapes-14-6-5.min.js)
@@ -282,16 +283,15 @@ mxStencilRegistry.allowEval = false;
 				}
 			}
 			
-			this.addMenuItems(menu, ['-', 'pageSetup', 'print', '-', 'close'], parent);
-			// LATER: Find API for application.quit
+			this.addMenuItems(menu, ['-', 'pageSetup', 'print', '-', 'close', '-', 'exit'], parent);
 		})));
 	};
 
 	var graphCreateLinkForHint = Graph.prototype.createLinkForHint;
 	
-	Graph.prototype.createLinkForHint = function(href, label)
+	Graph.prototype.createLinkForHint = function(href, label, associatedCell)
 	{
-		var a = graphCreateLinkForHint.call(this, href, label);
+		var a = graphCreateLinkForHint.call(this, href, label, associatedCell);
 		
 		if (href != null && !this.isCustomLink(href))
 		{
@@ -320,10 +320,10 @@ mxStencilRegistry.allowEval = false;
 		var editorUi = this;
 		var graph = this.editor.graph;
 		
-		electron.registerMsgListener('isModified', () =>
+		electron.registerMsgListener('isModified', (uniqueId) =>
 		{
 			const currentFile = editorUi.getCurrentFile();
-			let reply = {isModified: false, draftPath: null};
+			let reply = {isModified: false, draftPath: null, uniqueId: uniqueId};
 
 			if (currentFile != null)
 			{
@@ -769,6 +769,13 @@ mxStencilRegistry.allowEval = false;
 				});
 			}, true).container, 360, 225, true, false);
 		});
+
+		editorUi.actions.addAction('exit', function()
+		{
+			electron.request({
+				action: 'exit'
+			});
+		});
 	}
 	
 	var appLoad = App.prototype.load;
@@ -1011,6 +1018,7 @@ mxStencilRegistry.allowEval = false;
 			{
 				var library = new DesktopLibrary(this, data, fileEntry);
 				this.loadLibrary(library);
+				this.showSidebar();
 			}
 			catch (e)
 			{
@@ -1164,6 +1172,7 @@ mxStencilRegistry.allowEval = false;
 						try
 						{
 							this.loadLibrary(new LocalLibrary(this, xml, name));
+							this.showSidebar();
 						}
 						catch (e)
 						{
@@ -1621,6 +1630,9 @@ mxStencilRegistry.allowEval = false;
 	
 	LocalFile.prototype.saveDraft = function()
 	{
+		// Save draft only if file is not saved (prevents creating draft file after actual file is saved)
+		if (!this.isModified()) return;
+
 		if (this.fileObject == null)
 		{
 			//Use indexed db for unsaved files
@@ -2128,6 +2140,7 @@ mxStencilRegistry.allowEval = false;
 		{
 			var library = new DesktopLibrary(this, data, fileEntry);
 			this.loadLibrary(library);
+			this.showSidebar();
 			success(library);
 		}), error, libPath);
 	};
